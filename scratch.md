@@ -81,7 +81,7 @@ business modeling, analysis and design, implementation, testing and deployment. 
 provides structured way for companies to envision create software programs. Since it provides a 
 specific plan for each step of the development process.
 
-##### Phases
+#### Phases
 1. Inception
     * Idea for the project is stated. Dev team determines if the project is worth pursuing and what
     resources are needed.
@@ -94,55 +94,55 @@ specific plan for each step of the development process.
     * Software is released to the public Final adjustments and updates are made based on feedback from end 
     users
   
-##### Business modelling
+#### Business modelling
 * Opprette en bedre forståelse og kommunikasjon mellom forretnings
 utviklere og software utviklere.
 * Forstå strukturen og dynamikken til forretningen/organisasjonen/interessenten
 som skal bruke systemet.
 * Finne nåværende problemstillinger og mulige forbedringer.
 
-##### Requirements
+#### Requirements
 * Beskrive hva systemet skal gjøre.
 * Lage et Bruksmønster Diagram.
 
-##### Analysis and Design
+#### Analysis and Design
 * Skal vise korleis systemet vil bli realisert i gjennomføringsfasen
 * Resultere i eit design og analyse modell.
 
-##### Implementation
+#### Implementation
 * Implementere klasser og objekter i systemet.
 * Teste og utvikle komponenter til systemet.
 * Sette sammen de ulike delene til et system.
 
-##### Test
+#### Test
 * Bekrefte interaksjoner mellom objekter.
 * Bekrefte riktig integrasjon av alle komponenter i systemet
 * Bekrefte at alle behovene i systemet er implementert riktig.
 * Finne og identifisere feil i systemet og korrigere disse før utviklingsfasen
 
-##### Deployment
+#### Deployment
 * Produsere ein produktutgivelse
 * Distribuere produktet til interresenter
 * Drive support for produktet
 
-##### Configuration and Change Management
+#### Configuration and Change Management
 * Konfigurasjonsledelse.
 * Forandringsforespørsel ledelse.
 * Status og mål ledelse.
 
-##### Project Management
+#### Project Management
 * Risiko behandling
 * Planlegging av prosjektet.
 * Overvåking av prosessens utvikling.
 
-##### Environment
+#### Environment
 * Beskrive aktivitetene som er nødvending for utviklingsprosessen.
 * Forberede prosjekt-spesifikke midler.
 * Lage ein utstyrsliste over nødvendig utstyr til prosjektet.
 
 ## Agile
 
-##### What's Agile?
+#### What's Agile?
 Agile is the ability to create and respond to change. It's a way to overcome
 an uncertain and turbulent environment. Authors of the Agile Manifesto chose "Agile"
 as the label for the idea because the word represented the adaptiveness and response
@@ -166,7 +166,7 @@ roles. This is because the managers make sure team members have, or obtain,
 the right skill sets. Managers provide the environment that allows the team to 
 be successful. 
 
-##### 12 principles
+#### 12 principles
 
 1. Our highest priority is to satisfy the customer through early and continous 
 delivery of valuable software.
