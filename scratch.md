@@ -187,3 +187,8 @@ and users should be able to maintain a constant pace indefinitely.
 1. The best architectures, requirements, and designs emerge from self-organizing teams.
 1. At regular intervals, the team reflects on how to become more effective,
 then tunes and adjusts its behavior accordingly.
+
+## UML
+
+Unified Modeling Language is a standardized general-purpose modeling language in the field of OO software engineering.
+ 
