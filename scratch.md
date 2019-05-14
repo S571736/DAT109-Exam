@@ -94,8 +94,74 @@ specific plan for each step of the development process.
     * Software is released to the public Final adjustments and updates are made based on feedback from end 
     users
   
-#### Business modelling
+##### Business modelling
 * Opprette en bedre forståelse og kommunikasjon mellom forretnings
 utviklere og software utviklere.
-    
-    
+* Forstå strukturen og dynamikken til forretningen/organisasjonen/interessenten
+som skal bruke systemet.
+* Finne nåværende problemstillinger og mulige forbedringer.
+
+##### Requirements
+* Beskrive hva systemet skal gjøre.
+* Lage et Bruksmønster Diagram.
+
+##### Analysis and Design
+* Skal vise korleis systemet vil bli realisert i gjennomføringsfasen
+* Resultere i eit design og analyse modell.
+
+##### Implementation
+* Implementere klasser og objekter i systemet.
+* Teste og utvikle komponenter til systemet.
+* Sette sammen de ulike delene til et system.
+
+##### Test
+* Bekrefte interaksjoner mellom objekter.
+* Bekrefte riktig integrasjon av alle komponenter i systemet
+* Bekrefte at alle behovene i systemet er implementert riktig.
+* Finne og identifisere feil i systemet og korrigere disse før utviklingsfasen
+
+##### Deployment
+* Produsere ein produktutgivelse
+* Distribuere produktet til interresenter
+* Drive support for produktet
+
+##### Configuration and Change Management
+* Konfigurasjonsledelse.
+* Forandringsforespørsel ledelse.
+* Status og mål ledelse.
+
+##### Project Management
+* Risiko behandling
+* Planlegging av prosjektet.
+* Overvåking av prosessens utvikling.
+
+##### Environment
+* Beskrive aktivitetene som er nødvending for utviklingsprosessen.
+* Forberede prosjekt-spesifikke midler.
+* Lage ein utstyrsliste over nødvendig utstyr til prosjektet.
+
+## Agile
+
+##### What's Agile?
+Agile is the ability to create and respond to change. It's a way to overcome
+an uncertain and turbulent environment. Authors of the Agile Manifesto chose "Agile"
+as the label for the idea because the word represented the adaptiveness and response
+to change which was so important to their approach.
+
+It's about understanding the your environment today and what uncertainties you're
+facing and figure out how to adapt to what's going on.
+
+#### Agile Software Development
+Agile is an umbrella term for a set of frameworks and practices
+based on the values and principles expressed in the [Agile Manifesto](https://www.agilealliance.org/agile101/the-agile-manifesto/)
+and the 12 Principles.
+
+Agile focuses on the people doing the work and how they work together. 
+Solutions evolve through collaboration between self-organizing cross-functional teams.
+
+Self-organizing teams is a big focus in Agile development as in they can figure
+out how they're going to approach things on their own.
+It means the teams are cross-functional. So there is no need for specific
+roles. This is because the managers make sure team members have, or obtain, 
+the right skill sets. Managers provide the environment that allows the team to 
+be successful. 
