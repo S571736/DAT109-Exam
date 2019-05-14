@@ -1,6 +1,6 @@
-#Eksamensnotater 2019
+# Eksamensnotater 2019
 by Sondre Lindaas Gjesdal
-##Different types of software development models
+## Different types of software development models
 * Waterfall
     * Linear production flow, outdated
 * Agile development
@@ -14,7 +14,7 @@ by Sondre Lindaas Gjesdal
 * LEAN
     * Designed for fast delivery & minimum waste
 
-##Waterfall
+## Waterfall
 
 Waterfall is a linear way of developing and is therefor not particularly iterative and flexible.
 The progress flows mostly in one direction through the six stages.
@@ -36,7 +36,7 @@ This model is from an 1970 article by [Winston W. Royce](https://en.wikipedia.or
 
 Unmodified waterfall model ![Model](https://upload.wikimedia.org/wikipedia/commons/e/e2/Waterfall_model.svg)
 
-#####Supporting Arguments
+##### Supporting Arguments
 The linear development reduces cost at later stages of the development. As there is no need to fix
 problems before the end of the development.
 
@@ -46,7 +46,7 @@ documentation and therefor a lot of knowledge lost. The waterfall model provides
 as the model itself progresses linearly through easy to explain phases and is thus easy to understand.
 Because of this it's a first example of software engineering texts and courses.
 
-#####Criticism
+##### Criticism
 Clients might not know exactly what their requirements are before they see a working software and are thus
 often changed in the middle of development and towards the end. Leading to redesign and redevelopment.
 Something that increases cost.
@@ -54,16 +54,16 @@ Something that increases cost.
 Designers are not always aware of the difficulties ahead when designing a new feature or product.
 Which the can lead to revising of design.
 
-##Fusion
+## Fusion
 
-#####Short
+##### Short
 The method integrates and extends the best features of earlier OO methods. It's a full
 coverage method, providing a direct route from requirements definition through analysis and design
 to a programming language implementation. 
 
 ![Fusion Process](Pictures/Fusion_Process.jpg)
 
-#####Key attributes for EVO
+##### Key attributes for EVO
 
 1. Multiobjective driven
 2. Early, frequent iteration
@@ -74,14 +74,14 @@ to a programming language implementation.
 7. Result orientation, not software development process orientation
 
 
-##RUP
+## RUP
 
 Rational Unified Process divides the development process into four distinct phases that each involve
 business modeling, analysis and design, implementation, testing and deployment. RUP development methodology 
 provides structured way for companies to envision create software programs. Since it provides a 
 specific plan for each step of the development process.
 
-#####Phases
+##### Phases
 1. Inception
     * Idea for the project is stated. Dev team determines if the project is worth pursuing and what
     resources are needed.
@@ -92,6 +92,10 @@ specific plan for each step of the development process.
     * Project is developed and completed. The software is designed, written and tested
 4. Transition
     * Software is released to the public Final adjustments and updates are made based on feedback from end 
-    userss
+    users
+  
+#### Business modelling
+* Opprette en bedre forståelse og kommunikasjon mellom forretnings
+utviklere og software utviklere.
     
     
