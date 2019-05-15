@@ -201,6 +201,7 @@ states of objects. Ex: Class diagram, Composite Structure diagram.
 Emphasizes the dynamic behavior of the system by showing collaborations among objects and changes to the 
 internal states of objects. Ex: Sequence diagram, Activity diagram, State Machine diagram.
 
+### Structure Diagrams
 #### Class Diagram
 Describes the structure of a system by showing the system's classes, their attributes, and the relationships among
 the classes.
@@ -226,3 +227,18 @@ Shows a complete or partial view of the structure of an example modeled system a
 Describes how a system is split-up into logical groupings by showing the dependencies among these groupings.
 
 ![Package Diagram](Pictures/Package_Diagram.jpg)
+
+### Behaviour Diagrams
+#### Activity Diagram
+Describes the business and operational step-by-step workflows of components in a system. An diagram shows 
+the overall flow of control.
+![Acticity Diagram](Pictures/Activity_Diagram.jpg)
+
+#### State Machine Diagram
+Describes the states and state transitions of the systems.
+![State Machine Diagram](Pictures/State_Machine.jpg)
+
+#### Use Case Diagram
+Describes the functionality provided by a system in terms of actors, their goals represented as use cases, 
+and any dependencies among those use cases
+![Use Case Diagram](Pictures/Use_Case_Diagram.jpg) 
