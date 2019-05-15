@@ -198,3 +198,31 @@ drives the model the model elements and diagrams, the UML diagrams represent two
 Emhasizes the dynamic behavio of the system by showing collaborations among objects and changes to the internal 
 states of objects. Ex: Class diagram, Composite Structure diagram.
 ##### Dynamic/behavioral view
+Emphasizes the dynamic behavior of the system by showing collaborations among objects and changes to the 
+internal states of objects. Ex: Sequence diagram, Activity diagram, State Machine diagram.
+
+#### Class Diagram
+Describes the structure of a system by showing the system's classes, their attributes, and the relationships among
+the classes.
+![Class Diagram](Pictures/Class_Diagram.jpg)
+
+#### Component Diagram
+Describes how a software system is split-up into components and shows the dependencies among these components.
+
+![Component Diagram](Pictures/Component_Diagram.jpg)
+
+
+#### Deployment Diagram
+Describes the hardware used in system implementations and the execution environments and the artifacts 
+deployed on the hardware.
+
+![Deployment Diagram](Pictures/Deployment_Diagram.jpg)
+
+#### Object Diagram
+Shows a complete or partial view of the structure of an example modeled system at a specific time.
+![Object Diagram](Pictures/Object_Diagram.jpg)
+
+#### Package Diagram
+Describes how a system is split-up into logical groupings by showing the dependencies among these groupings.
+
+![Package Diagram](Pictures/Package_Diagram.jpg)
