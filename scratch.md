@@ -242,3 +242,17 @@ Describes the states and state transitions of the systems.
 Describes the functionality provided by a system in terms of actors, their goals represented as use cases, 
 and any dependencies among those use cases
 ![Use Case Diagram](Pictures/Use_Case_Diagram.jpg) 
+
+### Interaction Diagrams
+#### Communication Diagram 
+Shows the Interactions between objects or parts in terms of sequenced messages. They represent a combination of
+information taken from Class, Sequence and Use Case Diagrams describing bot the static structure and dynamic
+behavior of a system.
+![Communication Diagram](Pictures/Communication_Diagram.jpg)
+
+#### Sequence Diagram
+Shows how objects communicate with each other in terms of a sequens of messages. Also indicates the lifespans
+of objects relative to those messages.
+![Sequence Diagram](Pictures/Sequence_Diagram.jpg)  
+
+## Software Architecture
