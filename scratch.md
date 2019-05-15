@@ -191,4 +191,10 @@ then tunes and adjusts its behavior accordingly.
 ## UML
 
 Unified Modeling Language is a standardized general-purpose modeling language in the field of OO software engineering.
- 
+While a set of diagrams is partial graphic representation of a system's model, which also contains documentation that 
+drives the model the model elements and diagrams, the UML diagrams represent two different views of a system model.
+
+##### Static/structural view
+Emhasizes the dynamic behavio of the system by showing collaborations among objects and changes to the internal 
+states of objects. Ex: Class diagram, Composite Structure diagram.
+##### Dynamic/behavioral view
