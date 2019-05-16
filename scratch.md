@@ -256,3 +256,41 @@ of objects relative to those messages.
 ![Sequence Diagram](Pictures/Sequence_Diagram.jpg)  
 
 ## Software Architecture
+
+## KISS
+
+KISS is an acronym for "Keep it simple, stupid". It's a design principle noted by US Navy in 1960. The KISS principle
+states that most systems work best if they are kept simple rather than complicated. Therefor simplicity should be
+a key goal in design.
+
+## GRASP
+General Responsibility Assignment Software Patterns consist of guidelines for assigning responsibility to classes
+and objects in OO design. It is not connected to SOLID design principle. The patterns and principles in GRASP are
+controller, creator, indirection, information expert, high cohesion, low coupling, polymorphism.
+
+#### Controller
+Controller pattern assigns the responsibility of dealing with system events to a non-UI class that 
+represents the overall system or a use case scenario. So a controller is a non user interface object responsible for 
+receiving or handling a system event
+
+#### Creator
+The class creating objects is called a creator. Which class that is, is a fundamental property of the relationship
+between objects of particular classes.
+
+
+more should be written here about responsibility of creating objects
+
+#### Indirection
+Indirection supports low coupling and reuse potential between two elements by assigning the responsibility
+of mediation between them to an intermediate object. An example of this is the introduction of a controller component
+for mediation between data and its representation in the model-view control pattern. 
+This ensures that coupling between them remains low.
+
+#### Information Expert
+A principle used to determine where to delegate responsibilities such as methods, computed fields, and so on.
+Using the principle of information expert, a general approach to assigning responsibilities is to look at a given
+responsibility, determine the information needed to fulfill it, and then determine where that information is stored.
+This will lead to placing the responsibility on the class with the most information required to fulfill it.
+
+#### High Cohesion
+High cohesion is a patterns that attempts to keep objects appropriately focused, manageable and understandable. 
