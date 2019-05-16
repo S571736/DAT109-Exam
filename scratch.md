@@ -294,3 +294,26 @@ This will lead to placing the responsibility on the class with the most informat
 
 #### High Cohesion
 High cohesion is a patterns that attempts to keep objects appropriately focused, manageable and understandable. 
+It's used in support of low coupling. High cohesion means that the responsibilities of a given elements are 
+strongly related and highly focused.
+
+#### Low Coupling
+Coupling is a measure of how strongly one element is connected to, has knowledge of, or relies on other elements. 
+Low coupling is an evaluative pattern that dictates how to assign responsibilities to support
+* Lower dependency between the classes,
+* Change in one class having lower impact on other classes,
+higher reuse potential.
+
+#### Polymorphism
+According to the polymorphism principle, responsibility for defining the variation of behaviors based on type
+is assigned to the type for which this variation happens. The user of the type should use polymorphic operations 
+instead of explicit branching based on type.
+
+#### Protected variations
+The pattern protects elements from the variations on other elements by wrapping the focus of instability with an
+interface and using polymorphism to create various implementations of this interface. 
+
+#### Pure Fabrication
+A pure fabrication is a class that does not represent a concept in the problem domai, specially made up to achieve low
+coupling, high cohesion, and the reuse potential thereof derived. This kind of class is called a "service" in 
+domain-driven design.
