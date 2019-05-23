@@ -391,4 +391,58 @@ SCRUM is:
 * Easy to understand
 * Especially hard to master
  
+ Been used for complex software development since the early 90's. 
  
+ #### Scrum usage
+ Areas of which Scrum has been used: 
+ 1. Mapping and identifying the marked, technology and product properties.
+ 2. Development of new products, as well as product expansions.
+ 3. Putting products and expansions in production.
+ 4. Develop cloud services and other operational environments.
+ 5. managing and updating products.
+ 
+ Scrum especially efficient in iterative and incremental sharing of experience. The core in Scrum is a small team that's
+ very flexible and adaptable.
+ 
+ #### Theory behind Scrum
+ Scrum is based on empiricism, which is the theory of knowledge coming from experience and making decisions
+ based on what's known. 
+ 
+ The three pillars in empirical procession:
+ * Transparency
+ * Inspection
+ * Adaption
+ 
+   
+#### Scrum team
+
+The team consists of a Product owner, Development team and Scrum Master. The Scrum team is self-organizing and cross
+functional. Scrum teams has shown to increase efficiency over time. They deliver the product iteratively and 
+incrementally. This maximizes the possibility of feedback.
+
+##### Product owner
+Responsible for maximizing the value of the product as a result of the work the dev team does. 
+
+Product owner is the only one responsible for the product backlog. Handling the backlog consists of:
+
+* Clearly expressing backlog elements
+* Order backlog elements for efficiently reaching objectives
+* Optimizing value of work done by dev team
+* Make sure the backlog is visible, transparent and clear to all, as well as showing Scrum team what to work 
+on in next sprint.
+* Make sure dev team has the necessary understanding of elements in the backlog.
+
+  
+  
+##### Development team(dev team)
+Dev team consists of professionals doing the necessary work for delivering a potentially product increment at the end
+of each sprint. Dev team is handed responsibility of the organization to organize thyself to do their work.
+
+Dev team has the following characteristics:
+* Self organizing, no one tells them how they're supposed to make backlog elements to delivery ready functionality.
+* Dev team are cross-functional, got all the necessary experience to make a product increment
+* In a Scrum dev team there's only developers. despite of the work the person does.
+* Dev team does not contain subgroups, independent of what domainknowledge which is needed,
+ex: tests, architecture, operations and so on
+* Individuals in dev team can have specialized in things, and domain-expertize, but the team 
+together is responsible for the whole thing.
