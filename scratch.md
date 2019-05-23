@@ -393,7 +393,7 @@ SCRUM is:
  
  Been used for complex software development since the early 90's. 
  
- #### Scrum usage
+ ### Scrum usage
  Areas of which Scrum has been used: 
  1. Mapping and identifying the marked, technology and product properties.
  2. Development of new products, as well as product expansions.
@@ -404,7 +404,7 @@ SCRUM is:
  Scrum especially efficient in iterative and incremental sharing of experience. The core in Scrum is a small team that's
  very flexible and adaptable.
  
- #### Theory behind Scrum
+ ### Theory behind Scrum
  Scrum is based on empiricism, which is the theory of knowledge coming from experience and making decisions
  based on what's known. 
  
@@ -414,13 +414,13 @@ SCRUM is:
  * Adaption
  
    
-#### Scrum team
+### Scrum team
 
 The team consists of a Product owner, Development team and Scrum Master. The Scrum team is self-organizing and cross
 functional. Scrum teams has shown to increase efficiency over time. They deliver the product iteratively and 
 incrementally. This maximizes the possibility of feedback.
 
-##### Product owner
+#### Product owner
 Responsible for maximizing the value of the product as a result of the work the dev team does. 
 
 Product owner is the only one responsible for the product backlog. Handling the backlog consists of:
@@ -434,7 +434,7 @@ on in next sprint.
 
   
   
-##### Development team(dev team)
+#### Development team(dev team)
 Dev team consists of professionals doing the necessary work for delivering a potentially product increment at the end
 of each sprint. Dev team is handed responsibility of the organization to organize thyself to do their work.
 
@@ -446,3 +446,70 @@ Dev team has the following characteristics:
 ex: tests, architecture, operations and so on
 * Individuals in dev team can have specialized in things, and domain-expertize, but the team 
 together is responsible for the whole thing.
+
+The team size should be small enough to make changes fast and big enough to deliver a reasonable amount of work within
+a sprint. < 4 is to small and > 9 is usually to big. Product owner and Scrum master is not recognised as team members.
+
+#### Scrum Master 
+Responsible for promoting and supporting Scrum, as defined in the scrum guide.
+Scrum Master does this by helping all team members to understand scrum in theory, practice and its rules and values.
+
+Scrum Master is a "Servant-leader" for the team. Scrum Master helps bystanders and others who interact with the team
+to interact in a way that creates the max value
+
+##### Scrum master aid to product owner
+* Make sure goal, scope, and product domain is understood as clearly as possible by the entire scrum team
+* Identify techniques for efficient backlog handling.
+* Help Scrum team understand meaning of a clear and concise backlog.
+* understand product planning in an empirical context.
+* Insure that product owner understands how backlog can be managed to maximize value creation
+* Understand and practice agility
+* Facilitate Scrum meetings on requests or by need
+
+##### Scrum master aid to dev team
+* Coaching dev team in self-organizing and cross-functionality.
+* Helps dev team making products of high value.
+* Remove obstacles in the way of dev teams progress.
+* Facilitate Scrum meetings on requests or as needed
+* Coach dev team in environments where Scrum is not fully adapted or understood
+
+#### Scrum master aid to the organization
+* Lead and coach organization in adaption of Scrum.
+* Plan Scrum entries in the organization.
+* Help employees and stakeholders to understand and comply Scrum and empirical software development.
+* Be a change agent who increases efficiency in the Scrum team.
+* Work together with other Scrum Masters to increase efficiency of the introduction of Scrum in the
+organization. 
+
+### Scrum meetings
+The meetings are used to create regularity and minimized for unplanned meetings per definition in Scrum.
+All meetings are time restricted. A sprints length is permanent when it's started and cannot be changed 
+whatsoever. 
+
+Except for the Sprint which acts as a container for the other meetings is each Scrum meeting a formal
+opportunity to inspect and make adaptions and improvements. Skipping meetings results in reduced 
+transparency.
+
+#### Sprint
+Scrum is based on the sprint which is time restricted to about a month or shorter. The goal is to 
+make a finished and delivery ready product increment. The sprint length should have a permanent duration
+through the entire development process. The next sprint starts as soon as the previous one is finished.
+
+As the sprint is ongoing:
+* No changes to put the sprint end goal at risk is allowed
+* Quality of work will always be made
+* Backlog is to be clarified and renegotiated between product owner and Dev team as one learns more.
+
+Each sprint contains a goal of what is to be built. 
+
+Sprints can be cancelled by various reasons I will not delve into.
+
+#### Sprint planning
+* What is to be delivered by this sprint
+* What work need to be done to make the increment
+* Sprint goal
+
+#### Daily Scrum
+Daily meeting restricted to 15 minutes. Goal is to make plan for next 24 hours.
+
+#### Sprint review
