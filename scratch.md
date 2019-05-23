@@ -317,3 +317,78 @@ interface and using polymorphism to create various implementations of this inter
 A pure fabrication is a class that does not represent a concept in the problem domai, specially made up to achieve low
 coupling, high cohesion, and the reuse potential thereof derived. This kind of class is called a "service" in 
 domain-driven design.
+
+## SOLID
+Solid is a mnemonic acronym for five design principles intended to make software designs more understandable, 
+flexible and maintainable. It is not related to GRASP software design principles. It's a subset of many principles.
+Though they apply to any OO design, SOLID principles can also form a core philosophy for methodologies such as agile dev
+and adaptive software development. Introduced by Robert C. Martin in *Design Principles and Design Patterns*, The 
+acronym was introduced later by someone else.
+
+#### Single responsibility
+A class should have only a single responsibility, that is, only changes to one part of the software's specification
+of the class
+
+#### Open-close
+"Software entities ... should be open for extension, but closed for modification"
+
+#### Liskov substitution
+"Objects in a program should be replaceable with instances of their subtypes without altering the 
+correctness of that program"
+
+#### Interface segregation
+"Many client-specific interfaces are better than one general-purpose interface"
+
+#### Dependency inversion
+One should "depend upon abstractions, [not] concretions." 
+
+## Manifesto for Agile programming
+
+**Individuals and interactions** over processes and tools
+
+**Working software** over comprehensive documentation
+
+**Customer collaboration** over contract negotiation
+
+**Responding to change** over following a plan
+
+That is while there is value in the items on the right, we value the items on the left more.
+
+## Extreme programming (XP)
+
+XP is one of several popular Agile processes. It's proven successful at many companies of all sizes.
+XP stresses customer satisfaction and that's one of the reasons it's so successful. Instead of delivering all in one,
+XP delivers the software you need when you need it. XP empowers confident responding to changing customer requirements,
+even late in the lifecycle.
+Managers, customers and devs are all equal partners in a collaborative team. XP implements simple and effective
+environment, enabling teams to become highly productive. Team self organize around the problem to solve it as 
+effectively as possible.
+
+XP improves software projects in five essential ways:
+* Communication
+* Simplicity
+* Feedback
+* Respect
+* Courage
+
+Constant communication between customers and fellow programmers. Always keeping their design simple and clean.
+They get feedback by testing, starting day one. Early deliveries to customer and implementing suggested changes.
+XP has [simple rules](http://www.extremeprogramming.org/rules.html).
+XP has many small pieces that individually doesn't make sense, but combined a complete picture can be seen.
+The rules set expectation between team members but are not the end goal.
+
+### XP flow chart
+
+![XP flow chart](Pictures/XP.jpg
+
+## SCRUM Guide
+
+SCRUM is a framework that makes addressing complex and adaptive problems possible. At the same time we creatively and 
+efficiently deliver a product with highest possible value.
+
+SCRUM is:
+* Lightweight
+* Easy to understand
+* Especially hard to master
+ 
+ 
