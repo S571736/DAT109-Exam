@@ -491,9 +491,9 @@ opportunity to inspect and make adaptions and improvements. Skipping meetings re
 transparency.
 
 #### Sprint
-Scrum is based on the sprint which is time restricted to about a month or shorter. The goal is to 
-make a finished and delivery ready product increment. The sprint length should have a permanent duration
-through the entire development process. The next sprint starts as soon as the previous one is finished.
+Scrum is based on the sprint which is time restricted to about a month or shorter. The goal is to make a finished 
+and delivery ready product increment. The sprint length should have a permanent duration through the entire 
+development process. The next sprint starts as soon as the previous one is finished.
 
 As the sprint is ongoing:
 * No changes to put the sprint end goal at risk is allowed
@@ -513,3 +513,71 @@ Sprints can be cancelled by various reasons I will not delve into.
 Daily meeting restricted to 15 minutes. Goal is to make plan for next 24 hours.
 
 #### Sprint review
+At the end of the sprints there's inspections of the product increment and adjust the backlog. The meetings between 
+Scrum team and other stakeholders. It's meant to increase the value of the product. Sprint review is informal and
+a presentation of the product increment meant for feedback and get a cooperative culture.
+
+Sprint review lasts about 4 hours for 1 month, and shorter for shorter sprints. 
+Sprint review contains
+* Scrum team and central stakeholders invited by product owner.
+* Product owners will update everyone on the state of the backlog.
+* Dev team updates on what went well in development and what challenges they met and mastered.
+* Dev team demonstrates finished work and answer's questions about product increment.
+* Product owner discusses backlog as it stands. If possible product owner estimates when the project is finished
+* The entire group cooperates on what's the next that should be done for the next sprint.
+* Review of how the market is or potential use of product can have changed what gives the most value to do for the next
+sprints.
+* Review of timeline, budget, possible capabilities and market for next release of product.
+
+Result is a updated backlog.
+
+#### Sprint retrospective
+The retrospective gives the Scrum team an opportunity to reflect their own ways to work and make a plan
+for improvements to implement in the next sprint.
+
+Sprint retrospective follows Sprint review and before Sprint planning. 
+Purpose of sprint retrospective
+* Inspection and reflection around how the last sprint was, focusing on people, relation, processes, and  tools.
+* Identify and fix order on what went well and list potential enhancements.
+* Make a plan for implementing enhancement in the way Scrum team work in.
+
+At the end of the retrospective the Scrum team should have identified enhancements to implement in next sprint.
+
+#### Scrum artifacts
+Scrum artifacts represents work or value through transparency and possibility for inspection and adaption.
+Artifacts are specially designed to maximize visibility of important information.
+
+##### Product Backlog
+Ordered list containing all known requirements. It's the only source for future change to the product.
+Product owner is responsible.
+
+Backlog changes as the product and environment change. Backlog is therefore dynamic.
+
+Backlog contains:
+* Properties
+* Functions
+* Requirements
+* Additions
+* Fixes
+
+For what's supposed to changes to be developed for future releases. The elements in the backlog have the following
+attributes:
+* Description
+* Priority
+* Estimate
+* Business value
+* Criteria to finish
+
+Changes to the Backlog is cooperative between product leader and Dev team. Backlog maintenance takes no
+more than 10% of the dev teams capacity.
+
+The higher the element the more detailed it is. 
+
+##### Survey progress towards goal
+Total work towards goal or milestone should always be ready to be summed. 
+
+#### Sprint backlog
+Same as product backlog, but only contains elements for the specific sprint, as well as a plan to develop
+product increment. 
+
+#### Increment
