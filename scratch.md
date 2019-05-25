@@ -581,3 +581,98 @@ Same as product backlog, but only contains elements for the specific sprint, as 
 product increment. 
 
 #### Increment
+
+Increment is sum of all product backlog elements that's finished in a sprint and value of all increment
+of all previous sprints. The new increment should be at a state at the end of a sprint where it can be used
+by customers and meet Scrum teams definition of finished. 
+
+The increment is a step towards a vision or a goal. 
+
+## Model driven Development
+
+
+### Models
+* Mapping Feature - A model is based on an original(=system)
+* Reduction Feature - A model only reflects a (relevant) selection of the original's properties
+* Pragmatic Feature - A model needs to be usable in place of an original with respect to some feature
+
+Purposes - Descriptive and prescriptive
+
+#### Motivation
+
+* Increasing **complexity** of software
+    * Increasing basic requirements e.g. adaptible GUI, security, network capabilities, ...
+    * Complex infrastructures, e.g., OS APIs, language libraries, application frameworks.
+* Software for **specific devices**
+    * Web browser, mobile phone, navigation system, video player
+* **Technological progress**
+    * Integration of different technologies and legacy systems, migration to new technologies
+* ... leads to **problems** with software dev
+    * Software finished too late
+    * Wrong functionality realized
+    * Software is poorly documented
+    * and can not be further developed, e.g., when the technological environment changes, business model/requirements
+    change, etc.
+* **Traditional** usage of models in software development
+    * **Communication** with customers and users(requirement specification, prototypes)
+    * Support for software design, capturing of the **intention**
+    * **Task specification** for programming
+    * **Code visualization**, for example in TogetherJ
+    
+    
+### MDSE
+
+#### Concept
+
+* **Abstraction** from specific realization technologies
+* **Automated code generation** from abstract models
+    * generation of Java-APIs, XML Schema, etc. from UML
+    * Increased **productivity** and **efficiency**
+* **Separate development** of application and infrastructure
+
+#### MDSE methodology ingredients
+* **Concepts:** The components that build up the methodology
+* **Notations:** The way in which concepts are represented
+* **Process and rules:** The activities that lead to the production of the final product
+* **Tools:** Applications that ease the execution of activities or their coordination.
+
+![MD acronym](Pictures/MD_Acronyms.jpg)
+* **Model-Driven Architecture(MDA)** is the particular vision of MDD proposed by the Object Management Group(OMG)
+* **Model-Driven Development(MDD)** is a development paradigm that uses models as the primary artifact
+of the development process.
+* **Model-Driven Engineering(MDE)** is a superset if MDD because it goes beyond the pure development
+* **Model-Based Engineering(MBE)** is a softer version of ME, where models do not "drive" the process.
+
+#### Modeling Languages
+* **Domain-Specific Languages(DSLs):** languages that are designed specifically for a certain domain or context
+* **General Purpose Modeling Languages(GPMLs, GMLs or GPLs):** Languages that can be applied to any sector or domain
+for software modeling purposes
+* Typical examples are UML, Petri-nets, or state machines
+
+#### Types of models
+* **Static models:** Focus on the static aspects of the system in terms of managed data and of structural shape and
+architecture of the system
+* **Dynamic models:** Emphasize the dynamic behavior of the system by showing the execution
+* Just think about UML
+
+#### Approaches
+* "CASE with UML"
+    * **UML-subset:** Class Diagram, State Machine, Package/Component Diagram, as well as
+    * UML Action Semantic Language(ASL) as programming language
+* **Niche product**
+    * Several specialized vendors like Kennedy/Carter
+    * Mainly used for the development of embedded System
+* One **part of the basic architecture** implemented
+    * Modeling language is predetermined (**xUML**)
+    * Transformation definitions can be adapted or can be established by the user(via ASL)
+* **Advantages** compared to CASE
+    * Standardized modeling language based on the UML
+* **Disadvantages** compared to CASE
+    * Limited extent of the modeling language
+
+#### Modeling levels
+* Computation independent(CIM): describe requirements and needs at a very abstract level, without any reference to
+implementation aspects(e.g., description of user requirements or business objectives)
+* Platform independent(PIM): define the behavior of the systems in terms of stored data and performed algorithms,
+without any technical or technological details
+* Platform-specific(PSM): define all the technological aspects in detail.
