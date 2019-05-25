@@ -649,6 +649,14 @@ of the development process.
 for software modeling purposes
 * Typical examples are UML, Petri-nets, or state machines
 
+#### Metamodeling
+* To represent the models themselves as "instances" of some more abstract models
+* **Metamodel** = yet another abstraction, highlighting properties of the model itself
+
+Metamodeling can be used for:
+    * defining new languages
+    * defining new properties or features of existing information(metadata)
+    
 #### Types of models
 * **Static models:** Focus on the static aspects of the system in terms of managed data and of structural shape and
 architecture of the system
@@ -676,3 +684,55 @@ implementation aspects(e.g., description of user requirements or business object
 * Platform independent(PIM): define the behavior of the systems in terms of stored data and performed algorithms,
 without any technical or technological details
 * Platform-specific(PSM): define all the technological aspects in detail.
+
+
+### Use Case 1 - Model driven development
+
+##### Communication
+MDD contribute and organize the understanding of the system within a group of people. Models as
+*lingua franca* between actors from business and IT division
+
+##### Productivity
+MDD semiautomates software development. In MDD, software is derived through a series of model-to-model
+transformations (possibly) ending with a model-to-text transformations that produces the final code.
+
+##### Executable models
+And executable model is a model complete enough to be executable. From a theoretical POV, a model is executable
+when its **operational semantics are fully specified.**
+In practice the executability of a model may depend on the adopted execution engine.
+* Models which are not entirely specified but that can be executed by some advanced tools that are able to fill the gaps
+* Completely formalized models that cannot be executed because an appropriate engine is missing.
+
+##### Smaxt vs dumb execution engines
+* CRUD operation typically account for 80% of the overall software functionality
+* Huge spared effort through simple generation rules
+
+![Code generators](Pictures/CodeGenerators.jpg)
+
+##### Executable models
+Most popular is executable UML models. Executable UML development method(xUML) initially proposed by Steve Mellor.
+
+#### Executable models
+**Code generation:** generating running code from a higher level model in order to create a working application.
+* by means of a rule-based template engine
+* Common IDE tools can be used to render the source code produced
+
+**Model interpretation:** interpreting the models and making them run
+
+Non-empty intersection between two options
+
+### Code generation
+Goal is to generate running code from higher level models
+* like compilers producing executable binary files from source code
+* Also known as model compilers
+
+Once the source code is generated state-of-the-art IDEs can be used to manipulate code
+
+##### Benefits
+* Intellectual property
+* Separation of modeling and execution
+* Multi-platform generation
+* Generators simpler than interpreters
+* Reuse of existing artefacts
+* Adaption to enterprise policies
+* Better performances
