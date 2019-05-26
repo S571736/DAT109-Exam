@@ -81,10 +81,20 @@ business modeling, analysis and design, implementation, testing and deployment. 
 provides structured way for companies to envision create software programs. Since it provides a 
 specific plan for each step of the development process.
 
+RUP is a process product, developed and maintained by Rational Software. The development team for RUP are working
+closely with customers, partners, Rational's product groups as well as Rational's consultants organization, to ensure
+that the process is continuously updated and improved upon to reflect recent experiences and evolving and proven best
+practices.
+
 #### Phases
 1. Inception
     * Idea for the project is stated. Dev team determines if the project is worth pursuing and what
     resources are needed.
+    * Stakeholders concurrence on scope definition and cost/schedule estimates.
+    * Requirements understanding as evidence by the fidelity of the primary use cases.
+    * Credibility of the cost/schedule estimates, priorities, risks, and dev process.
+    * Depth and breadth of any architectural prototype that was developed.
+    * Establishing a baseline by which to compare actual expenditures vs planned expenditures.
 2. Elaboration
     * Project architecture and required resources are further evaluated. Devs consider possible application
     of the software and costs associated with the development.
@@ -736,3 +746,90 @@ Once the source code is generated state-of-the-art IDEs can be used to manipulat
 * Reuse of existing artefacts
 * Adaption to enterprise policies
 * Better performances
+
+
+## Exam answers
+
+### 2014 Q1 a-c
+
+##### a
+
+* RUP er en tilnærming til programvareutvikling som er iterativ, sentrert rundt en arkitektur og 
+drevet av brukstilfeller.
+
+RUP er iterativt ettersom det går over fire faser forskjellige faser. Inception, elaboration, construction and 
+transition. De forskjellige fasene har hver av sine mål for hva som skal bli diskutert, lagd, identifiseringer osv.
+f.eks så vil første fasen finne grenser for prosjektet og identifisere interessenter og avdekke funkskjonelle og
+ikkje-funskjonelle krav. Diskutere risiko og kostnad. Design og brukskvalitet og videre planlegging. Man skal då ende 
+opp med eit lifecycle objective
+
+Elaboration vil gå i dypere detaljer som å planlegge arkitektur og systemkrav. Finne farene og problemstillingene man
+vil møte på i prosjektet og løse disse før man går videre. Produsere ein arkitekturprototype(Her kommer det fram kor
+viktig arkitekturen er og hvorfor den er i fokus). Design skal elaboratetes. Man skal demonstrere systemet til 
+interessenter. ved enden av denne fasen vil man ende opp med ein Lifecycle architecture.
+
+Construction er hvor man programmerer og faktisk lager prosjektet og videre utvikler det. Her skal man oppnå et 
+produkt så fort som mulig ced at brukere og interessenter får testet systemet og komme med tilbakemeldinger.
+
+Transition er siste fasen hvor man tester betaversjon for å avdekke feil og mangler som burde forbedres før systemet
+blir utgitt til markede eller levert til kunde. Trening av brukere og vedlikeholdere av systemet. evt skal man 
+konvertere eksisterende databaser så de er kompatible med det nye systemet. Gjøre siste feilrettinger. Milepelen her er
+produkt release.
+
+* RUP er en veldefinert og velstrukturert utviklingsprosess for programvare.
+
+RUP har mange punkter og regler å følge, dette fører til at det er veldefiner og man tviler ikkje på ka man skal gjøre
+under de forskjellige fasene av prosjektarbeidet. RUP er definert av seks ingeniør prinsipler, tre støttende prinsipper
+og fire faser. De totalt 9 prinsippene er: business modeling, requirements, analysis and design, implementation, test,
+deployment, configuration and change management, project management og environment. Disse fører også til at RUP er 
+velstrukturert. Det er masse man skal ta hensyn til som gjør at arbeidet blir lettere og man får bedre oversikt.
+
+* RUP er også et prosess-produkt som gir deg et tilpasningsdyktig rammeverk for
+  programvareutvikling
+
+Ut fra ka eg finner er prosess produkt noe som blir kontinuerlig utvikla. Det vil si at man aldri slutter å arbeide 
+med dette prosjektet altså RUP. Kan hende at eg har misforstått at det er et produkt av ein prosess, noe som ikkje gir
+heilt meining heller ettersom at alle produkt må gå gjennom ein prosess. Det nærmeste eg kan komme fram til er at det
+forklarer korleis ein prosess skal bli utført. Det gir tilpasningsdyktig utvikling av den grunn at man med hjelp av
+UML kan lage modeller så man får fram alle krav og spesifikasjoner på ein måte som er lett å endre på. Det er lagt opp
+til at endringer kan bli lagt inn fort og at man kan dermed implementere og gjøre de endringene i utviklingen som 
+trengs. 
+
+Under vårt prosjekt var dette greit endringene i krav fra kunden kom ettersom at det var små endringer i modellene som
+var lagd så langt i prosessen og vi kunne dermed lett forklare resterende gruppemedlemmer med hjelp av våre oppdaterte
+modeller til ka som endringer som var gjort i krav og ka vi måtte gjøre for at produktet skulle stemme overens med krav
+og skulle fungere på ein effektiv måte.
+
+##### b
+
+* RUP sin utviklingssyklus går gjennom fire faser. Forklar hva målene (objectives) til oppstartfasen
+(inception) er. Skriv kort om dine erfaringer med gjennomføringen av denne fasen i prosjektet du deltok i. Husk
+å vurdere erfaringene dine i forhold til RUP.
+
+Målene i Inception er i all hovedsak å kartlegge prosjektet med tanke på interessenter, hva de kan tenke seg av 
+funksjonelle og ikkje-funksjonelle krav, finne estimat på priser, risikoer. Finne utkast på design og brukskvalitet.
+Og videre planlegging av prosjektet. Slutten av fasen ender man opp med eit Lifecycle Objective. Man finner ut suksess 
+faktorer som kor mye man tjener og om man blir meir kjent på markedet.
+
+I vårt tilfellet var det ikkje satt mye tid på valg av prosjekt, vi vurderte mest på ka vi kunne få mest recognition
+for og ka som for vår del var mest sannsynlig at vi kunne gjennomføre samt skaffe arbeid til alle på gruppa. 
+Vi fant ut at pris som var tid i vårt scenario var lett skalerbart etter det vi følte vi kunne få til. så vi kunne
+altså raskt investere meir om vi følte vi kunne gjennomføre ein ny feature til prosjektet vårt før tiden var omme.
+
+##### c
+
+* RUP definerer en rekke roller. En av rollene er prosjektleder. Forklar kort hvilket oppdrag
+ (mission) prosjektlederen har. Forklar også hvilke artefakt han har hovedansvar for å lage.
+ I prosjektet som ble gjennomført i kurset, hadde du en prosjektleder eller var det selv. Beskriv
+ hvordan prosjektlederen i prosjektet ditt fungerte i forhold til hvordan RUP definerer denne
+ rollen.
+ 
+ **Oppdrag:** Planlegge iterasjonene som skal gjennomføres, dette er eineste plass der det står ka ein manager eller
+ leder skal gjøre. Fra kilder utenfra pensum står det at ein manager skal ha fokus på å følge og kontrollere 
+ aktiviteter. Dette inkluderer budsjett, schedules og scope.
+ 
+ **Artefakter:** se ovenfor
+ 
+ **Forskjell prosjekt vs RUP:** Prosjektlederen vår fungerte i lik eller litt mindre grad av det som er beskrevet. 
+ Prosjektleder var mest med på utviklingen og var hovedsaklig bare leder i form av å holde kontroll på at det som
+ skulle bli gjort, blei gjort. 
